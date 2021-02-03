@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo JQuery</title>
+    <script src="JS/jquery-3.5.1.js"></script>
+    <script src="JS/02-eventos-MouseOver.js"></script>
+    <style>
+        #caja{
+            width: 250px;
+            height: 250px;
+            border: 2px solid black;
+            background: yellow;
+            transition: 300ms all;
+        }
+        /*#caja:hover{  Pseudo clase que indica que al pasar el mauseover hace algo 
+            background-color: red;
+            cursor: pointer;
+            transition: 300ms all;
+        }*/
+        input{
+            padding: 10px;
+            width: 300px;
+            font-size: 20px;
+        }
+        #datos{
+            border: 4px dashed black;
+            padding: 10px;
+            width: 250px;
+            height: 250px;
+            margin-top: 10px;
+            display: none;
+        }
+        #sigueme{
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            display: block;
+            background: yellow;
+            opacity: 0.5;
+            border-radius: 999px;
+            border: 3px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="sigueme">
+
+    </div>
+    <h1>Eventos</h1>
+    <div id="caja">Soy una caja</div>
+    <br>
+    <form action="">
+        <input type="text" id="nombre">
+    </form>
+    <br>
+    <div id="datos">
+        <br>
+    </div>
+
+</body>
+</html>

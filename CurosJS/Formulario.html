@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicios DOM eventos y Funciones</title>
+    <script src="Seccion 5/Hola mundo/JS/32-ejercicioDOM.js"></script>
+</head>
+<body>
+    <!--
+        Formulario con el campo: Nombre, Apellidos y Edad
+        Boton de enviar el Formulario: Envento Submit
+        Mostrar esos datos por pantalla en un div
+        tener un boton que al darle clic nos muestre los datos acutales del formulario
+        Validacion del formulario
+    -->
+    <h1>Ejercicio DOM y funciones</h1>
+    <div class="box">    
+        <form action="#" method="POST" id="formulario" onsubmit="return false">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" id="nombre"><br>
+
+            <label for="apellidos">Apellidos:</label><br>
+            <input type="text" name="apellidos" id="apellido"><br>
+
+            <label for="edad">Edad:</label><br>
+            <input type="number" name="edad" id="edad"><br><br>
+
+            <input type="submit" value="Enviar" id="guardar">
+        </form>
+    </div>
+    <div id="box_dash">
+            
+    </div>
+
+    <div class="mostrar">
+        <p id="p_nombre">
+            <span></span>
+        </p>
+        <p id="p_apellido">
+            <span></span>
+        </p>
+        <p id="p_edad">
+            <span></span>
+        </p>
+    </div>
+</body>
+</html>

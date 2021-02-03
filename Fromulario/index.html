@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+    <style>
+        table{
+            margin-top: 10px;
+            border: 1px solid black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        td, th {
+    		    border: 1px solid #dddddd;
+    		    text-align: left;
+    		    padding: 2px;
+    		}
+    </style>
+</head>
+<body>
+    <h1>Ejercicio para Formulario con JQuery</h1>
+    <div id="caja_formulario">
+        <form action="" method="POST" id="formulario" >
+            <label for="name">First name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+            <label for="sex">Sex:</label><br>
+            <select name="sex" id="sex">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="noBinario">No Binario</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Guardar" id="guardar">
+        </form>
+    </div>
+    <div id="mostrar_resultados">
+        <table id="table_container">
+            <tr>
+                <th>Name</th> 
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </tr>
+    </div>
+</body>
+</html>
