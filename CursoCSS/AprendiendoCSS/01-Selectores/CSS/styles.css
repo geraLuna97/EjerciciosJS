@@ -1,0 +1,105 @@
+/*
+######## SELECTORES ######
+*/
+
+/*Selector universal*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Selector de etiqueta*/
+
+h1{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+footer a{ /* esta usare en la tabla que hice en el trabajo*/
+    color: red;
+}
+/* Selector de ID*/
+
+#descripcion,
+#Titulo
+{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#Titulo{
+    background: blue;
+    border: 2px dashed white;
+}
+/* Selector de clase*/
+.parrafo1{
+    font-style: italic;
+    /* text-decoration: underline; */
+    font-weight: bold;
+}
+
+.parrafo2, .parrafo3{ /*Compartir estilos*/
+    background-color: green;
+    color: white;
+    padding: 10px; /*Espacio entre dependiendio izquiera derecha etc.*/
+
+}
+.parrafo3{
+    background-color: orange;
+    color: black;
+}
+
+/*Por id y etiqueta  */
+#usuario form{ 
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+
+
+}
+
+#usuario form *{
+    display: block; /*Cada elemento esta en una linea para el solo*/
+}
+
+/*Por atributo *//* Selector de Selector de atributo*/
+input[type="text"]
+{   
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 200px;
+}
+
+input[type="submit"]
+{
+    background: chartreuse;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black; /*Tienes que ponerle el solid*/
+    cursor: pointer; /* Cuando pasas por el cursor pone la manita*/
+}
+
+/*Selectores Hijo*/
+#menu > li > a{
+    font-size: 18px;
+    color:red;
+    text-decoration: none;
+}
+
+/*Prioridad*/ /*CSS importa mas lo mas espesifico*/
+#saludo h1{
+    background: brown ;
+}
+
+h1{
+    background: purple !important; /*La etiqueta importan da mas prioridad*/
+}

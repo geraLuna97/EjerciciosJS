@@ -1,16 +1,28 @@
 {
   "users": [
     {
-      "name": "Elyas",
-      "age": "25",
+      "name": "Gerardo Luna Perales",
+      "age": "26",
       "sex": "Hombre",
       "id": 4
     },
     {
       "name": "Abraham",
-      "age": "29",
-      "sex": "Hombre",
-      "id": 5
+      "age": "33",
+      "sex": "No Binario",
+      "id": 6
+    },
+    {
+      "name": "Elyas",
+      "age": "1",
+      "sex": "Mujer",
+      "id": 7
+    },
+    {
+      "name": "Rafa",
+      "age": "9",
+      "sex": "No Binario",
+      "id": 8
     }
   ]
 }

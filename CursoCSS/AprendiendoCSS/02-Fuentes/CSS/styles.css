@@ -1,0 +1,37 @@
+@font-face{
+    font-family: IBMFuenteCustom;
+    src: url(Fuentes\IBM_Plex_Sans,Yusei_Magic\IBM_Plex_Sans.ttf);
+}
+
+
+
+h1{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-style: italic; /*Puede cursiva o inclinada */
+    text-transform: uppercase;
+    font-size: 45px;
+    /*Colores*/
+
+    /*Colores del sistema*/
+    color: mediumpurple;
+    
+    /*Colores hexadecimales*/
+    color: #dd1a1a8f;
+    /*Colores RGB*/
+    color:rgb(116, 55, 221);
+    /*Colores RGBA*/
+    color:rgba(116, 55, 221,0.5);/* Ultimo parametro es la opacidad*/
+}
+
+h3{
+    font-family: IBMFuenteCustom, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    color: olive;
+}
+
+p{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 18px;
+    font-weight: bold; /*Negruta */
+}

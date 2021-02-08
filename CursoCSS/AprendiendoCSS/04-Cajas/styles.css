@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 40px;
+}
+
+#cajas{
+    max-width: 1200px; /* darle un maximo de width */
+    border: 1px solid black;
+}
+
+
+
+.caja{
+    display: block; /* block se comporta como una caja, para divs line para texto etc */
+    width: 240px;
+    height: 250px;
+    background-color: lightblue;
+    border: 10px solid red ;
+    margin: 15px 15px 35px 15px;    /* Es una manera de asignar margenes sin tatos atributos margin top right left etc */
+    padding: 20px;
+    padding-bottom: 30px;
+    float: left; /* Float hace que se muevan a la izquierda o a la derecha */
+}
+
+
+.caja p{ 
+    /* aplica solo a los p dentro de la clase caja */
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 250px; /* la sangria del elemento  */
+
+    /* Padding son magenes inderiores 
+y margin son exteriores */
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
