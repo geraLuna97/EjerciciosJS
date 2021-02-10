@@ -1,28 +1,52 @@
 {
   "users": [
     {
-      "name": "Gerardo Luna Perales",
-      "age": "26",
+      "name": "Abraham G",
+      "age": "33",
       "sex": "Hombre",
       "id": 4
     },
     {
-      "name": "Abraham",
-      "age": "33",
-      "sex": "No Binario",
-      "id": 6
-    },
-    {
-      "name": "Elyas",
-      "age": "1",
-      "sex": "Mujer",
-      "id": 7
-    },
-    {
       "name": "Rafa",
-      "age": "9",
+      "age": "17",
       "sex": "No Binario",
       "id": 8
+    },
+    {
+      "name": "gera",
+      "age": "13",
+      "sex": "Hombre",
+      "id": 9
+    },
+    {
+      "name": "Abraham G",
+      "age": "10",
+      "sex": "No Binario",
+      "id": 12
+    },
+    {
+      "name": "Gerardo",
+      "age": "3",
+      "sex": "Hombre",
+      "id": 13
+    },
+    {
+      "name": "Gerardo",
+      "age": "17",
+      "sex": "No Binario",
+      "id": 14
+    },
+    {
+      "name": "Gerardo",
+      "age": "1",
+      "sex": "Hombre",
+      "id": 15
+    },
+    {
+      "name": "Gerardo",
+      "age": "24",
+      "sex": "No Binario",
+      "id": 16
     }
   ]
 }

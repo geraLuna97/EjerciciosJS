@@ -29,12 +29,11 @@ td{
     color: gray;
 }
 #caja_formulario{
-    float:left;
     margin-right: 100px;
+    float: left;
 }
 
 #mostrar_resultados{
-    float:left;
     padding-right: 10px;
 }
 
@@ -54,7 +53,7 @@ td{
 /* Estilos del formulario  */
 
 
-.actualizar,#guardar{
+.actualizar,#guardar,.borrar{
     width: 80px;
     background: #27AE60;
     font-weight: bold;
@@ -79,3 +78,21 @@ td{
 #formulario{
     padding: 10px;
 }
+
+
+
+#sec_formulario {
+        border: 1px;
+        /* margin: 10px; */
+        /* margin-left: 600px; */
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* DATO MEDIA Query */

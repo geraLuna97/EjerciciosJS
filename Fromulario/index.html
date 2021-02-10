@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,43 @@
     <script src="jquery-3.5.1.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
+
 <body>
     <h1 style="text-align: center;">Ejercicio para Formulario con JQuery</h1>
-    <div id="caja_formulario">
-        <form action="" method="POST" id="formulario" >
-            <label for="name">First name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="age">Age:</label><br>
-            <input type="number" id="age" name="age"><br>
-            <label for="sex">Sex:</label><br>
-            <select name="sex" id="sex">
-                <option value="hombre">Hombre</option>
-                <option value="mujer">Mujer</option>
-                <option value="noBinario">No Binario</option>
-            </select>
-            <br>
-            <br>
-            <input class="btn btn-primary" type="submit" value="Guardar" id="guardar">
-            <button type="button" class="actualizar">Actualizar</button>
-        </form>
-    </div>
-    <div id="mostrar_resultados">
-        <table id="table_container">
-            <tr>
-                <th>Name</th> 
-                <th>Age</th>
-                <th>Sex</th>
-                <th>Editar</th>
-                <th>Eliminar</th>
-            </tr>
-    </div>
+    <section id="sec_formulario">
+        <div id="caja_formulario">
+            <form action="" method="POST" id="formulario">
+                <label for="name">First name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age"><br>
+                <label for="sex">Sex:</label><br>
+                <select name="sex" id="sex">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="noBinario">No Binario</option>
+                </select>
+                <br>
+                <br>
+                <input class="btn btn-primary" type="submit" value="Guardar" id="guardar">
+                <button type="button" class="borrar">Borrar</button>
+            </form>
+        </div>
+        <div id="mostrar_resultados">
+            <table id="table_container">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </table>
+        </div>
+    </section>
 </body>
+
 </html>
