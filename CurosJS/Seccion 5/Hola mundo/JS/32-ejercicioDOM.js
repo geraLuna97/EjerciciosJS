@@ -24,7 +24,7 @@ window.addEventListener('load',() => {
             alert("El apellido no existe")
             return false;
         }
-        if(edad == null || edad.length <= 0 || isNaN(edad)) // !isNaN(edad) es lo mismo que == false
+        if(edad == null || edad.length <= 0 || isNaN(edad) || edad <= 0) // !isNaN(edad) es lo mismo que == false
         {
             alert("La edad no existe")
             return false;

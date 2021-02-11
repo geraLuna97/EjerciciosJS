@@ -5,7 +5,6 @@
 }
 
 table{
-    margin-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 100px;
     border-collapse: collapse;
@@ -79,13 +78,13 @@ td{
     padding: 10px;
 }
 
-
+body {
+    background-color: lightgreen;
+  }
 
 #sec_formulario {
         border: 1px;
-        /* margin: 10px; */
-        /* margin-left: 600px; */
-        width: 1000px;
+        width: 800px;
         margin: 0 auto;
     }
 
@@ -96,3 +95,49 @@ td{
 }
 
 /* DATO MEDIA Query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 630px) {
+    .actualizar,#guardar,.borrar{
+        width: 50px;
+        background:black;
+        font-weight: bold;
+        color: #27AE60;
+        font-size: .8em;
+    }
+
+    table{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 100px;
+        border-collapse: collapse;
+        font-size: .88em;
+    }
+
+    h1{
+        font-size: auto;
+    }
+
+    th {
+        font-size: .88em;
+        color: #00ad5f;
+        text-transform: uppercase;
+        background-color: #393939;
+        padding-top: 5px;
+        padding-bottom: 9px;
+    }
+
+    #formulario{
+        padding: 5px;
+        font-size: .8em;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

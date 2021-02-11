@@ -2,7 +2,7 @@
   "users": [
     {
       "name": "Abraham G",
-      "age": "33",
+      "age": "70",
       "sex": "Hombre",
       "id": 4
     },
@@ -15,38 +15,44 @@
     {
       "name": "gera",
       "age": "13",
-      "sex": "Hombre",
+      "sex": "No Binario",
       "id": 9
     },
     {
       "name": "Abraham G",
-      "age": "10",
-      "sex": "No Binario",
+      "age": "32",
+      "sex": "Hombre",
       "id": 12
     },
     {
       "name": "Gerardo",
-      "age": "3",
-      "sex": "Hombre",
+      "age": 5,
+      "sex": "Mujer",
       "id": 13
     },
     {
-      "name": "Gerardo",
-      "age": "17",
-      "sex": "No Binario",
+      "name": "GerardoLuna",
+      "age": 1,
+      "sex": "Hombre",
       "id": 14
     },
     {
       "name": "Gerardo",
-      "age": "1",
+      "age": 1,
       "sex": "Hombre",
       "id": 15
     },
     {
-      "name": "Gerardo",
-      "age": "24",
-      "sex": "No Binario",
+      "name": "sadasda",
+      "age": 3,
+      "sex": "Hombre",
       "id": 16
+    },
+    {
+      "name": "Gerardo",
+      "age": 4,
+      "sex": "Hombre",
+      "id": 17
     }
   ]
 }

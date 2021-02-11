@@ -37,8 +37,18 @@ $(document).ready(function () {
         e.preventDefault();
             if(contaSubmit != 1 ){
                 var nameInput = $("input[name='name']").val();
-                var ageInput = $("input[name='age']").val();
+                var ageInput = parseInt($("input[name='age']").val());
                 var sexInput = $('#sex option:selected').text();
+                console.log(!/[^a-zA-Z]/.test(nameInput))
+                if(nameInput.trim() == null || nameInput.trim().length == 0 || !/[^a-zA-Z]/.test(nameInput) == false ){
+                    alert("El nombre no existe")
+                    return false;
+                }
+                if(ageInput == null || ageInput.length <= 0 || isNaN(ageInput) || ageInput <= 0  )
+                {
+                    alert("La edad no existe")
+                    return false;
+                }
                 fetch(usersURL, {
                 method: 'POST',
                 body: JSON.stringify({
@@ -72,7 +82,6 @@ $(document).ready(function () {
                 var nameInput = $("input[name='name']").val();
                 var ageInput = $("input[name='age']").val();
                 var sexInput = $('#sex option:selected').text();
-
                 fetch(`${usersURL}/${editDataid}`, {
                     method: 'PATCH',
                     body: JSON.stringify({
@@ -85,7 +94,6 @@ $(document).ready(function () {
                     }
                 }).then(response => response.json())
                     .then(user => {
-
                         console.log(editDataid)
                         $('#table_container tr#' + editDataid).html(`
                     <td>${user.name}</td>
@@ -98,9 +106,6 @@ $(document).ready(function () {
             }
             })
     //Boton guardar/Actualizar end
-
-
-
     tableContainer.click(function (e) {
         e.preventDefault();
         // Update
@@ -129,7 +134,6 @@ $(document).ready(function () {
                 }).then(response => response.json())
             }
         }
-
     });
     // Delate end
     function getUsers() {
@@ -142,5 +146,4 @@ $(document).ready(function () {
         $('#formulario')[0].reset();
         return resetForm;
     }
-
 });
