@@ -10,7 +10,7 @@ $(document).ready(function () {
     getUsers()
         .then(response => response.json())
         .then(userData => userData.forEach(function (user) {
-            allUsers = userData;
+            allUsers = userData;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
             tableContainer.append(`
     <tr id="${user.id}">
     <td>${user.name}</td>
